@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[hello]]>
+    </line>
+    <line>
+      <![CDATA[hello]]>
+    </line>
+    <line>
+      <![CDATA[hello]]>
+    </line>
+    <line>
+      <![CDATA[hello]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47" started-at="2022-05-23T11:00:17 IST" finished-at="2022-05-23T11:00:17 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47" started-at="2022-05-23T11:00:17 IST" finished-at="2022-05-23T11:00:17 IST">
+      <class name="Test.Test1">
+        <test-method status="PASS" signature="test()[pri:0, instance:Test.Test1@51cdd8a]" name="test" duration-ms="2" started-at="2022-05-23T11:00:17 IST" finished-at="2022-05-23T11:00:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Test.Test1 -->
+      <class name="Test.Test3">
+        <test-method status="PASS" signature="tc3()[pri:0, instance:Test.Test3@71bbf57e]" name="tc3" duration-ms="1" started-at="2022-05-23T11:00:17 IST" finished-at="2022-05-23T11:00:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- Test.Test3 -->
+      <class name="Test.Test2">
+        <test-method status="PASS" signature="set()[pri:0, instance:Test.Test2@7f13d6e]" name="set" duration-ms="1" started-at="2022-05-23T11:00:17 IST" finished-at="2022-05-23T11:00:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- set -->
+      </class> <!-- Test.Test2 -->
+      <class name="Test.Test4">
+        <test-method status="PASS" signature="tc4()[pri:0, instance:Test.Test4@7d0587f1]" name="tc4" duration-ms="8" started-at="2022-05-23T11:00:17 IST" finished-at="2022-05-23T11:00:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- Test.Test4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
