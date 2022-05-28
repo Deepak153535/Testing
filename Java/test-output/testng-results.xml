@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26152" started-at="2022-05-22T17:48:14Z" finished-at="2022-05-22T17:48:40Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="14381" started-at="2022-05-22T17:48:14Z" finished-at="2022-05-22T17:48:28Z">
+      <class name="YouTube.Parrallel">
+        <test-method status="PASS" signature="demo(java.lang.String)[pri:0, instance:YouTube.Parrallel@7f1302d6]" name="demo" duration-ms="14368" started-at="2022-05-22T23:18:14Z" finished-at="2022-05-22T23:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- YouTube.Parrallel -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="6151" started-at="2022-05-22T17:48:28Z" finished-at="2022-05-22T17:48:35Z">
+      <class name="YouTube.Parrallel">
+        <test-method status="PASS" signature="demo(java.lang.String)[pri:0, instance:YouTube.Parrallel@7a4ccb53]" name="demo" duration-ms="6148" started-at="2022-05-22T23:18:28Z" finished-at="2022-05-22T23:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- YouTube.Parrallel -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="5601" started-at="2022-05-22T17:48:35Z" finished-at="2022-05-22T17:48:40Z">
+      <class name="YouTube.Parrallel">
+        <test-method status="PASS" signature="demo(java.lang.String)[pri:0, instance:YouTube.Parrallel@4df50bcc]" name="demo" duration-ms="5598" started-at="2022-05-22T23:18:35Z" finished-at="2022-05-22T23:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- YouTube.Parrallel -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
