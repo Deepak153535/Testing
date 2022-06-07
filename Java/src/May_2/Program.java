@@ -26,6 +26,7 @@ public static void main(String[] args) throws InterruptedException {
 		
 		driver.switchTo().frame(0);
 		driver.findElement(By.id("userName")).sendKeys("732648333");
+		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("i[class='sd-icon sd-icon-delete-sign fnt-22']")).click();
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id("inputValEnter")).sendKeys("32467324");
